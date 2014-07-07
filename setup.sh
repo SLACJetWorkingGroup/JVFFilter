@@ -18,9 +18,10 @@ setup_fastjet() {
 setup_boost() {
     export BOOSTINCDIR=/usr/include
     export BOOSTLIBLOCATION=/usr/lib64
+    export BOOSTSETUP=1
 }
 
-# setup_ROOT
+setup_ROOT
 setup_PYTHIA
 setup_fastjet
 setup_boost

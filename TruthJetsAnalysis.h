@@ -61,7 +61,7 @@ class TruthJetsAnalysis{
         int              fTEventNumber;
         int              fTNPV;
 
-        static const int MaxNParticles = 5000;
+        static const int MaxNParticles = 10000;
     
         int              fTNParticlesFilled;
         float            fTParticlePt              [MaxNParticles];
