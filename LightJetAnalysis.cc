@@ -91,7 +91,12 @@ void LightJetAnalysis::Analyze(){
 
 
     cout << "PtMomentPU01_03 " << PtMomentPU01_03[0] << endl;
-    fastjet::PseudoJet jet;
+    fastjet::PseudoJet particle;
+    vector<fastjet::PseudoJet> particles;
+
+    // loop
+    particle.reset_PtYPhiM(Pt[0], Eta[0], Phi[0], 0);
+
 
     return; 
 }
